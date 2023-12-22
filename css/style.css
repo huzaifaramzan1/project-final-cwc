@@ -11,12 +11,12 @@
 
 body {
   background: #004b91d7;
-  color: #2f3138;
+  color: #146893;
   font-family: "Open Sans", sans-serif;
 }
 
 a {
-  color: #00ff62;
+  color: #146893;
   transition: 0.5s;
 }
 
@@ -521,7 +521,7 @@ h6 {
 }
 
 #intro .about-btn:hover {
-  background: #0066db;
+  background: #2286f8;
   color: #fff;
 }
 
