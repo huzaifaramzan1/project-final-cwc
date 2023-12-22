@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #f82249;
+  color: #00ff62;
   transition: 0.5s;
 }
 
@@ -72,7 +72,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #f82249;
+  background: #00fca8;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -95,7 +95,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #e0072f;
+  background: #076ce0;
   color: #fff;
 }
 
@@ -114,7 +114,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #f82249;
+  background: #22f862;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -175,7 +175,7 @@ h6 {
 }
 
 #header #logo h1 span {
-  color: #f82249;
+  color: #00ff2a;
 }
 
 #header #logo h1 a,
@@ -288,7 +288,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #f82249;
+  background-color: #00ff95;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -300,12 +300,12 @@ h6 {
   width: 100%;
 }
 
-.nav-menu li.buy-tickets a {
+.nav-menu li.top-btn a {
   color: #fff;
-  background: #f82249;
+  background: #009b4b;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #f82249;
+  border: 2px solid #000000;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -314,12 +314,12 @@ h6 {
   font-size: 13px;
 }
 
-.nav-menu li.buy-tickets a:hover {
+.nav-menu li.top-btn a:hover {
   background: none;
 }
 
-.nav-menu li.buy-tickets:hover a:before,
-.nav-menu li.buy-tickets.menu-active a:before {
+.nav-menu li.top-btn:hover a:before,
+.nav-menu li.top-btn a:before {
   visibility: hidden;
 }
 
@@ -357,110 +357,13 @@ h6 {
 /* Mobile Nav Toggle */
 
 #mobile-nav-toggle {
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 999;
-  margin: 15px 15px 0 0;
-  border: 0;
-  background: none;
-  font-size: 24px;
+  
   display: none;
-  transition: all 0.4s;
-  outline: none;
-  cursor: pointer;
-}
 
-#mobile-nav-toggle i {
-  color: #fff;
 }
 
 /* Mobile Nav Styling */
 
-#mobile-nav {
-  position: fixed;
-  top: 0;
-  padding-top: 18px;
-  bottom: 0;
-  z-index: 998;
-  background: rgba(6, 12, 34, 0.9);
-  left: -260px;
-  width: 260px;
-  overflow-y: auto;
-  transition: 0.4s;
-}
-
-#mobile-nav ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-#mobile-nav ul li {
-  position: relative;
-}
-
-#mobile-nav ul li a {
-  color: #fff;
-  font-size: 17px;
-  overflow: hidden;
-  padding: 10px 22px 10px 15px;
-  position: relative;
-  text-decoration: none;
-  width: 100%;
-  display: block;
-  outline: none;
-}
-
-#mobile-nav ul li a:hover {
-  color: #f82249;
-}
-
-#mobile-nav ul li li {
-  padding-left: 30px;
-}
-
-#mobile-nav ul .menu-has-children i {
-  position: absolute;
-  right: 0;
-  z-index: 99;
-  padding: 15px;
-  cursor: pointer;
-  color: #fff;
-}
-
-#mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #f82249;
-}
-
-#mobile-nav ul .menu-item-active {
-  color: #f82249;
-}
-
-#mobile-body-overly {
-  width: 100%;
-  height: 100%;
-  z-index: 997;
-  top: 0;
-  left: 0;
-  position: fixed;
-  background: rgba(6, 12, 34, 0.8);
-  display: none;
-}
-
-/* Mobile Nav body classes */
-
-body.mobile-nav-active {
-  overflow: hidden;
-}
-
-body.mobile-nav-active #mobile-nav {
-  left: 0;
-}
-
-body.mobile-nav-active #mobile-nav-toggle {
-  color: #fff;
-}
 
 /*--------------------------------------------------------------
 # Intro Section
@@ -517,7 +420,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #f82249;
+  color: #03f768;
 }
 
 #intro p {
@@ -529,7 +432,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#00ac86 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -576,7 +479,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:hover::after {
-  border-left: 15px solid #f82249;
+  border-left: 15px solid #2286f8;
   -webkit-transform: scale(20);
   transform: scale(20);
 }
@@ -614,11 +517,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f82249;
+  border: 2px solid #009b5f;
 }
 
 #intro .about-btn:hover {
-  background: #f82249;
+  background: #0066db;
   color: #fff;
 }
 
