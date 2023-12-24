@@ -1,7 +1,7 @@
 
 
 body {
-  background: #004b91d7;
+  background-image: linear-gradient(to bottom, #0087c2, #0096c3, #00a2ab, #00a97b, #00ac3b);
   color: #146893;
   font-family: "Open Sans", sans-serif;
 }
