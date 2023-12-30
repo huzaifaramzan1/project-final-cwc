@@ -99,8 +99,9 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-image: linear-gradient(to left bottom, #002357, #004d8b, #007698, #009b74, #00bb20);
-  -webkit-text-size-adjust: 100%;
+
+background: rgb(1, 89, 148);
+
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
