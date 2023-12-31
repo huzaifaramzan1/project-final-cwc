@@ -3,65 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thumbnail Gallery</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-gap: 10px;
-        }
-
-        .gallery img {
-            width: 100%;
-            height: auto;
-        }
-    </style>
+    <title>Land Pollution gallery</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
 </head>
+<style>
+    body{
+        background-color: #154183;
+    }
+    .flex-column {
+      max-width: 250px;
+    }
+
+    img {
+      margin: 6px;
+    }
+    .carousel-slide{
+        height: 500px;
+    }
+
+  </style>
 <body>
-    <div class="container">
-        <h2>Thumbnail Gallery</h2>
-        <div class="gallery">
-            <img src="img/about-bg.jpg" alt="Image 1" class="img-thumbnail">
-            <img src="img2.jpg" alt="Image 2" class="img-thumbnail">
-            <img src="img3.jpg" alt="Image 3" class="img-thumbnail">
-            <!-- Add more images here -->
-        </div>
 
-        <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="modalImg">
-            <div id="caption"></div>
-        </div>
+
+      <!-- bootstrap image gallery 1 -->
+<div class="container-fluid">
+    <h1 class="text-center" style="color: white;">Land Pollution</h1>
+    <p class="text-center" style="color: white;">How pollution has destroyed our planet.</p>
+  
+    <div class="d-flex flex-wrap justify-content-center">
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="">
+        <img class="img-fluid" src="https://plus.unsplash.com/premium_photo-1663076452996-abef3ccfc4f4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1555992135-8392694f9a68?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+      </div>
+  
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1586274407088-57e2c80d2b36?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1624638853029-f2e0e724b689?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+      </div>
+  
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1632372475529-2ec38628bfd8?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1526951521990-620dc14c214b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+      </div>
+  
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="https://th.bing.com/th/id/R.a54f53dfcb9ea81518e45e46b39c9440?rik=q3MdSQlkYDK5Vw&riu=http%3a%2f%2f2.bp.blogspot.com%2f-JWkt2QRevTw%2fU0pbP-XUT0I%2fAAAAAAAAABw%2fPYPKO_A83v4%2fs1600%2f20140329-0002.jpeg&ehk=sJS8ivM0CCNSVujX%2bDGDLB3f7hEKvOhpdK8hr5bVvhM%3d&risl=&pid=ImgRaw&r=0">
+        <img class="img-fluid" src="https://images.unsplash.com/flagged/photo-1572213426852-0e4ed8f41ff6?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+      </div>
+  
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1632247620837-970aa94d2b99?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1531326537431-6197cac3795b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+      </div>
     </div>
+  </div>
+   
 
-    <script>
-        // Get the modal
-        var modal = document.getElementById("myModal");
-
-        // Get the image and insert it inside the modal - use its "alt" text as a caption
-        var images = document.getElementsByClassName("img-thumbnail");
-        for (var i = 0; i < images.length; i++) {
-            images[i].onclick = function(){
-                modal.style.display = "block";
-                var img = document.getElementById("modalImg");
-                img.src = this.src;
-                var captionText = document.getElementById("caption");
-                captionText.innerHTML = this.alt;
-            }
-        }
-
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
-            modal.style.display = "none";
-        }
-    </script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
