@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); 
+body {
+   background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px; background-image: repeating-linear-gradient(315deg, #00FFFF2E 92%, #073AFF00 100%),repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #073AFF14 39%),radial-gradient(99% 99% at 123% 55%, #00FF7300 1%, #000000FF 15%, #1C0394FF 55%, #0B4816FF 98%),radial-gradient(99% 99% at 21% 78%, #7B00FFFF 0%, #073AFF00 100%),radial-gradient(160% 154% at 711px -303px, #2000FFFF 0%, #073AFFFF 100%);
+   background-size: 100% 100%;
+   
+   
+    font-family: 'Your Google Font Name', sans-serif;
+   
+}
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  .airh1{
+    color: rgba(112, 168, 116, 0.80);
+  }
+  .pintro{
+    color: rgba(254, 255, 254, 0.8);
+  }
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  /* Media Query for devices withi coarse pointers and no hover functionality */
+  
+  /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+  
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+  
+    header video {
+      display: none;
+    }
+  }
+ .what{
+    margin-top: 40px;
+    
+ }
+ 
+ .introh1{
+    margin-left: 360px;
+    font-size: 40px;
+    margin-top: 25px;
+ }
+ .define{
+    width: 80%;
+    margin-top: 100px;
+   
+    margin-left: 150px;
+ }
+ 
+ 
+ .img1{
+    margin-top: 20px;
+    height: 330px;
+    width: 100%;
+    margin-right: 700px;
+    border-radius: 20px;
+ }
+   
+ 
+ .defp1{
+    margin-left: 90px;
+    font-size: 18px;
+    color: rgba(255, 255, 255,0.90);
+    font-weight: 550;
+ }
+ .types{
+    margin-top: 59px;
+ }
+ .typeh2{
+    text-align: center;
+    margin-left: 0px;
+    font-size: 30px;
+    color: rgb(19, 18, 18);
+    font-weight: 750;
+
+ }
+.twotypes{
+  margin-top: 30px;
+  
+}
+.type1{
+  font-size: 18px;
+    color: #11e434;
+    font-weight: 550;
+    margin-left:120px ;
+}
+.span{
+  padding: 10px;
+}
+.type2{
+  font-size: 18px;
+    color: #11e434;
+    font-weight: 550;
+    text-align: right;
+    margin-right: 200px;
+}
+
+
+.typesExplanation{
+ margin-top: 30px;
+}
+.typexp1{
+  font-size: 18px;
+    color: rgba(255, 255, 255,0.90);
+    font-weight: 550;
+    margin-left:100px ;
+}
+.typexp2{
+  font-size: 18px;
+    color: rgba(255, 255, 255,0.90);
+    font-weight: 550;
+    text-align: left;
+    margin-left: 80px;
+}
+.line{
+  border-right-style: solid;
+  height: 350px;
+  border-color: #11e434;
+ 
+}
+.causes{
+  margin-top: 59px;
+}
+.causesh2{
+  text-align: center;
+    margin-left: 0px;
+    font-size: 30px;
+    color: rgb(19, 18, 18);
+    font-weight: 750;
+}
+.cause1{
+  margin-top: 30px;
+  text-align: left;
+    margin-left: 0px;
+    font-size: 25px;
+    color: rgb(19, 18, 18);
+    font-weight: 750;
+}
+ .cause1ep{
+  margin-top: 25px;
+ }
+ .cause1p{
+  text-align: left;
+  font-size: 18px;
+  color: rgba(255, 255, 255,0.90);
+  font-weight: 500;
+  margin-left: 40px;
+ }
+ .span1{
+  padding: 5px;
+  color: #11e434;
+  font-weight: 700;
+  font-size: 21px;
+ }
+ .causeimg1{
+  height: 200px;
+    width: 80%;
+    border-radius: 20px;
+    margin-left: 100px;
+ }
+ .causesep2{
+  margin-top: 40px;
+ }
+ .causesep3{
+  margin-top: 40px;
+ }
+ .causesep4{
+  margin-top: 40px;
+ }
+ .causeimg4{
+  height: 250px;
+    width: 80%;
+    border-radius: 20px;
+    margin-left: 100px;
+ }
+ .causesep5{
+  margin-top: 40px;
+ }
+ .causesep6{
+  margin-top: 40px;
+ }
+ .causesep7{
+  margin-top: 40px;
+ }
+ .causesep8{
+  margin-top: 40px;
+ }
+ .help{
+  margin-top: 35px;
+  margin-left: 500px;
+  width: 30%;
+  border-width: 50px;
+  color: black;
+  
+ }
+ .intropara5{
+  margin-top: 20px;
+  width: 80%;
+  margin-left: 100px;
+  text-align: center;
+  font-size: 18px;
+  color: rgba(254, 255, 254, 0.8);
+  
+}
+.imagestag{
+  margin-left: 250px;
+  
+}
+.imagestag1{
+  margin-left: 40px;
+  
+}
