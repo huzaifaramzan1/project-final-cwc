@@ -1,0 +1,223 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); 
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+    background: ;
+    font-family: "Open Sans", sans-serif;
+    
+}
+#defination .container {
+	min-height: 80vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    color: #003300;
+}
+.container{
+    min-height: 50vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+a {
+	text-decoration: none;
+}
+header {
+    position: relative;
+    background-color: black;
+    height: 80vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    
+
+  }
+  .display-3{
+    color: #71cdffef;
+    font-size: xx-large;
+    
+    padding: 10px;
+    font-size: 90px;
+  }
+  .display-3 span{
+    color: #888826ef;
+    font-size: xx-large;
+    
+    padding: 10px;
+    font-size: 90px;
+  }  
+  
+header p{
+
+font-size: xx-large;
+color:  #ccffff;
+
+}
+header .video para{
+    
+	font-size: xx-large;
+    color: rgb(0, 173, 66);
+
+}
+
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  /* This will use a image instead of a video for devices that do not support the video element */
+  
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('img/water.jpg')  no-repeat center center scroll;
+    }
+  
+    header video {
+      display: none;
+    }
+  }
+
+  section{
+    
+    text-align: center;
+    
+  }
+  img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+} 
+.services{
+    min-height: 120vh;
+}
+section #services{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+  #services .services{
+	display: table;
+ text-align: center;
+ vertical-align: middle;
+ width: 100%;
+ height: 100%;
+ background-image: url('img/plastic-trash-bags-bottles-floating-ocean_124507-153290.jpg');
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 100% 100%;
+ object-fit: cover;
+ position: relative;
+ color: #fff;
+}
+#services .container {
+	max-width: auto;
+	margin: 0 auto;
+}
+.services .container .row h2{
+  font-family: "Open Sans", sans-serif;
+    font-size: 80px;
+    color:   #fff;
+}
+.services .container .row h2 span{
+  font-family: "Open Sans", sans-serif;
+    font-size: 85px;
+    color:  #00a738 ;   
+}
+.services .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.1rem 1.5rem 0 rgba(0, 0, 0, 2);
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: auto;
+    align-items: stretch;
+    
+    color: #008c91;
+  }
+  .services .card{
+    background-size: 100% 100%;
+background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+background-image:
+repeating-linear-gradient(315deg, #ffab5c15 92%, #ffffff38 100%),
+repeating-radial-gradient(75% 75% at 238% 218%, #ff840012 30%, #07ff512e 39%),
+radial-gradient(99% 99% at 123% 55%, #66ff0023 1%, rgba(244, 255, 206, 0.55) 15%, #fff4d1c3 55%, rgba(255, 234, 209, 0.718) 98%),
+radial-gradient(99% 99% at 21% 78%, rgb(255, 248, 222) 0%, #00ffb3 100%),
+radial-gradient(160% 154% at 711px -303px, rgba(0, 182, 55, 0.973) 0%, rgba(0, 133, 143, 0.811) 100%);
+  }
+  
+.services hr {
+    margin: 1.5rem 0;
+    background-color: #fff;
+  }
+.services p {
+    margin-bottom: 1rem;
+  }
+.services .btn {
+    font-size: 80%;
+    border-radius: 50%;
+    letter-spacing: .1rem;
+    padding: 10px;
+    opacity: 0.95;
+    transition: all 0.2s;
+    width: 60%;
+    font-weight: 500;
+    color: #fff;
+  }
+  #causes img{
+    max-width: 510px;
+    max-height: 450px;
+    border-radius: 30px;
+  }
+  #causes h4{
+    color: #4d6600;
+
+  }
+  .container-fluid .footer{
+    max-height: 30px;
+    text-align: center;
+    padding: 10px;
+    color:aqua ;
+    margin: 5px;
+  }
+  .container-fluid #footer{
+    background-color: linear-gradient(to top, #b4b4b4 25%, #ffffff 100%);
+  }
